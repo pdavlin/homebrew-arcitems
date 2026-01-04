@@ -1,25 +1,25 @@
 class Arcitems < Formula
   desc "CLI tool for ARC Raiders item and quest lookup"
   homepage "https://github.com/pdavlin/arcitems"
-  version "2026.01.03.1806"
+  version "2026.01.04.0020"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pdavlin/arcitems/releases/download/v2026.01.03.1806/arcitems-darwin-arm64.tar.gz"
-      sha256 "8feb1bb98e722f489cf80ed83bf75294b7bcfac0981d79cc01161a846b5d9a24"
+      url "https://github.com/pdavlin/arcitems/releases/download/v2026.01.04.0020/arcitems-darwin-arm64.tar.gz"
+      sha256 "04fd645983e1c59a882567c93046ec49ad72df2a8ba4fdae9c8832d5312c1bc1"
     else
-      url "https://github.com/pdavlin/arcitems/releases/download/v2026.01.03.1806/arcitems-darwin-amd64.tar.gz"
-      sha256 "116f4df2541180fb8137756cd05631b7f0615882f8e39e3f7506cdfa65b96c7c"
+      url "https://github.com/pdavlin/arcitems/releases/download/v2026.01.04.0020/arcitems-darwin-amd64.tar.gz"
+      sha256 "a00395751ed9b1d233c30bf0c28211ece98b1e5767fb883a65d8e52c8b2cb95b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pdavlin/arcitems/releases/download/v2026.01.03.1806/arcitems-linux-arm64.tar.gz"
-      sha256 "30bf9007d2e85371df0da788064b84ebb312e0f8444ba152f839336d14e7cc5b"
+      url "https://github.com/pdavlin/arcitems/releases/download/v2026.01.04.0020/arcitems-linux-arm64.tar.gz"
+      sha256 "ce923ced1ea69d3c8070db7ede398a77ee0303a6b13626a7403cf34b9b9875a7"
     else
-      url "https://github.com/pdavlin/arcitems/releases/download/v2026.01.03.1806/arcitems-linux-amd64.tar.gz"
-      sha256 "20438b7b0b30569fec60f3f0c6499616883f4f24bf5433697a5b96511ec9125f"
+      url "https://github.com/pdavlin/arcitems/releases/download/v2026.01.04.0020/arcitems-linux-amd64.tar.gz"
+      sha256 "8ceaf984586c360879e22f6ce6d251cd3a680b7a1d112ae6d0c4a042e58823d1"
     end
   end
 
